@@ -1,0 +1,26 @@
+
+body	{
+	background-color: #20639B;
+	}
+
+h1	{
+	color: #F6D55C;
+	font-family: arial;
+	font-size: 140px;
+	text-align: center;
+	}
+
+p	{
+	color: #F6D55C;
+	font-family: arial;
+	font-size: 50px;
+	text-align: center;
+	}
+
+a:hover {
+	color: #039be5;
+}
+
+a:active {
+	color: #F6D55C;
+}
