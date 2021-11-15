@@ -3,7 +3,6 @@ html
     height: 100%;
 }
 
-
 button.meditation
 {
     background-image:linear-gradient(#FE848D, #F9B89F);	
@@ -28,7 +27,7 @@ button.meditation
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+}
 
 body
 {   
@@ -39,4 +38,18 @@ body
     background-size: cover;
 }
 
+#footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    font-family: 'Lobster', serif;
+    color: black;
+}
 
+a.Git:link{color: #E3E9CF; text-decoration: none;}
+a.Git:visited{color: #E3E9CF; text-decoration: none;}
+a.Git:hover{color: #0E86D4; text-decoration: underline;}
+a.Git:active{color: #055C9D; text-decoration: underline;}
