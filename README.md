@@ -16,3 +16,7 @@ I have added the countdown id so that a countdown can be displayed on the webpag
 Additional functionality has also been added to the button, that when clicked it should also begin a basic countdown(this is style a prototype) counting down from 5. Upon reaching 0 the countdown will end.
 The countdown should also be hidden when it reaches 0. This will allow for the box breathing meditation to begin. Functionality will need to be added so that after the countdown a counter starts to track how long they have meditated over the course of their "session". 
 -Christopher Szafranek
+
+V0.03 notes:
+I have worked on a bit of css that allows for a box to rotate for a minute. I still have to get it to work without the user hovering over it however it is fully operational all that is left to do is centre it and that should be us.
+- Declan S P McCormack
