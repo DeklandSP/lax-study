@@ -20,3 +20,8 @@ The countdown should also be hidden when it reaches 0. This will allow for the b
 V0.03 notes:
 I have worked on a bit of css that allows for a box to rotate for a minute. I still have to get it to work without the user hovering over it however it is fully operational all that is left to do is centre it and that should be us.
 - Declan S P McCormack
+
+V0.04
+Added extra buttons(yes and no) and a sentence which will be displayed after the meditation completes
+Added functionality to the main button to get the box animation to appear after being clicked and the countdown has been completed.
+-Christopher Szafranek
