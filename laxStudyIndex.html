@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>LaxStudy</title>
-
     <!--For importing css style sheet-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/boxanimation.css">
-    <link rel="stylesheet" href="css/backSwitch.css">
+    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <style>
-        button 
-        {
+        button {
             font-family: 'Lobster', serif;
         }
     </style>
@@ -24,25 +18,28 @@
 </head>
 
 <body>
-    <!--This class will cause a box to appear which will then proceed to rotate for at least a minute.-->
-    <div class="box1" hidden></div>
-
+    <script src="laxStudyscripts.js"></script>
     <!--Centring the button-->
-    <div class="center">
+    <div class="center" , id="meditationButton">
         <!--The button which will begin the website-->
-        <button class="meditation">Begin Meditation</button>
+        <button class="meditation" , onclick="hideButton()">Begin Meditation</button>
     </div>
-    <!--For Javascript file when we get to it-->
-    <script src="js/backgroundCycle.js"></script>
+    <div class="center" id="countdown">
+    </div>
+    <div id="box1" hidden></div>
+    <div id="continue" hidden>
+        <P>Would you like to continue your meditation?</P>
+        <button id="yes" , onclick="continueMeditation()">Yes!</button>
+        <button id="no" onclick="stopMeditation()">No!</button>
+    </div>
 
     <footer id="footer">
-        
         <p>
             By
             <a class="Git" href="https://github.com/DeklandSP">Declan S P McCormack</a>
             ,
             <a class="Git" href="https://github.com/Sinnaria">Chris Szafranek</a>
-            , and 
+            , and
             <a class="Git" href="https://github.com/LewisTraynor">Lewis Traynor</a>
         </p>
     </footer>
