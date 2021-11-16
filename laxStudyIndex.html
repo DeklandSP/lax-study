@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>LaxStudy</title>
+
     <!--For importing css style sheet-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/boxanimation.css">
+    <link rel="stylesheet" href="css/backSwitch.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <style>
-        button {
+        button 
+        {
             font-family: 'Lobster', serif;
         }
     </style>
@@ -18,22 +24,25 @@
 </head>
 
 <body>
-    <script src="laxStudyscripts.js"></script>
+    <!--This class will cause a box to appear which will then proceed to rotate for at least a minute.-->
+    <div class="box1" hidden></div>
+
     <!--Centring the button-->
-    <div class="center" , id="meditationButton">
+    <div class="center">
         <!--The button which will begin the website-->
-        <button class="meditation" , onclick="hideButton()">Begin Meditation</button>
+        <button class="meditation">Begin Meditation</button>
     </div>
-    <div class="center" id="countdown">
-    </div>
+    <!--For Javascript file when we get to it-->
+    <script src="js/backgroundCycle.js"></script>
 
     <footer id="footer">
+        
         <p>
             By
             <a class="Git" href="https://github.com/DeklandSP">Declan S P McCormack</a>
             ,
             <a class="Git" href="https://github.com/Sinnaria">Chris Szafranek</a>
-            , and
+            , and 
             <a class="Git" href="https://github.com/LewisTraynor">Lewis Traynor</a>
         </p>
     </footer>
