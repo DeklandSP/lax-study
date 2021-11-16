@@ -6,6 +6,7 @@ function hideButton() {
         buttonHidden.style.display = "none";
     }
 
+    var boxLoop = document.getElementById("box1")
     var countdownHidden = document.getElementById("countdown")
     var timeLeft = 5;
     var downloadTimer = setInterval(function () {
@@ -15,12 +16,24 @@ function hideButton() {
         else if (timeLeft == 0) {
             if (countdownHidden.style.display === "none") {
                 countdownHidden.style.display = "block";
-            } else {
-                countdownHidden.style.display = "none";
             }
+            else {
+                countdownHidden.style.display = "none";
+
+            }
+        } else {
+            boxLoop.removeAttribute("hidden");
         }
         timeLeft -= 1;
     }, 1000);
+}
+
+function continueMeditation() {
+
+}
+
+function stopMeditation() {
+
 }
 
 
