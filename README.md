@@ -25,3 +25,10 @@ V0.04 notes:
 Added extra buttons(yes and no) and a sentence which will be displayed after the meditation completes
 Added functionality to the main button to get the box animation to appear after being clicked and the countdown has been completed.
 - Christopher Szafranek
+
+V0.05:
+Changed the if statement in jss to accurately display the box animation upon pressing begin mediation
+Removed the coutdown as we want to work on functionality of it, this is a feature that will be added in at a later date.
+Made sure the functionality of the "yes" button was working at that the menu for continuing meditation was properly removed upon clicking
+Changed the names of the classes and id so that they could be called upon properly by the JS and CSS.
+- Christopher Szafranek
