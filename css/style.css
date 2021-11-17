@@ -4,7 +4,7 @@ html
 }
 
 
-.meditation
+button.meditation
 {
     background-image:linear-gradient(#FE848D, #F9B89F);	
     text-align: center;
@@ -17,34 +17,28 @@ html
     outline-color: transparent;
     outline-style: solid;
     box-shadow: 0 0 0 4px;
-    display: block;
-
-}
-
-#meditationButton
-{
-display:block;
 }
 
 #box1 
     {
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        position: relative;
-        animation-name: boxRotate;
-        animation-duration: 10s;
-        animation-iteration-count: 6;
-        display: none;
-      }
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: linear-gradient(#F9B89F,#DD8298);
+    position: relative;
+    animation-name: boxRotate;
+    animation-duration: 10s;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+  }
 
 @keyframes boxRotate 
 {
-        0%   {background-color:#F75868; left:0px; top:0px;}
-        25%  {background-color:#FDDD56; left:200px; top:0px;}
-        50%  {background-color:#03B3E8; left:200px; top:200px;}
-        75%  {background-color:#36DD4A; left:0px; top:200px;}
-        100% {background-color:#F75868; left:0px; top:0px;}
+    0%   {background-color:#F75868; left:810px; top:230px;}
+    25%  {background-color:#FDDD56; left:970px; top:230px;}
+    50%  {background-color:#03B3E8; left:970px; top:450px;}
+    75%  {background-color:#36DD4A; left:810px; top:450px;}
+    100% {background-color:#F75868; left:810px; top:230px;}
 }
 
 
@@ -54,7 +48,6 @@ display:block;
     font-size: 40px;
     color: #E3E9CF;
     padding:8em 8em;
-    display:none;
 
 }
 
@@ -104,12 +97,11 @@ body
     background-size: cover;
 }
 
-/*#countdown
+#countdown
 {
     font-size: 500px;
     color: #E3E9CF;
-    display: block;
-}*/
+}
 
 #footer
 {
