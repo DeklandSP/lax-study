@@ -32,3 +32,7 @@ Removed the coutdown as we want to work on functionality of it, this is a featur
 Made sure the functionality of the "yes" button was working at that the menu for continuing meditation was properly removed upon clicking
 Changed the names of the classes and id so that they could be called upon properly by the JS and CSS.
 - Christopher Szafranek
+
+V0.06:
+Edited The JS laxStudyscript to allow full functionaly for the no and yes button. the yes button will loop back to the box medition before asking the user if they would like to meditate again. The No will return the user back to the beging of the main page (this will be changed to display a insporational message and display the ammount of time the user has been meditaing for this will be done at a later date).
+- Lewis Traynor
