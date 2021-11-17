@@ -4,7 +4,7 @@ html
 }
 
 
-button.meditation
+.meditation
 {
     background-image:linear-gradient(#FE848D, #F9B89F);	
     text-align: center;
@@ -17,6 +17,13 @@ button.meditation
     outline-color: transparent;
     outline-style: solid;
     box-shadow: 0 0 0 4px;
+    display: block;
+
+}
+
+#meditationButton
+{
+display:block;
 }
 
 #box1 
@@ -28,6 +35,7 @@ button.meditation
         animation-name: boxRotate;
         animation-duration: 10s;
         animation-iteration-count: 6;
+        display: none;
       }
 
 @keyframes boxRotate 
@@ -46,6 +54,7 @@ button.meditation
     font-size: 40px;
     color: #E3E9CF;
     padding:8em 8em;
+    display:none;
 
 }
 
@@ -95,11 +104,12 @@ body
     background-size: cover;
 }
 
-#countdown
+/*#countdown
 {
     font-size: 500px;
     color: #E3E9CF;
-}
+    display: block;
+}*/
 
 #footer
 {
