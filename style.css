@@ -1,0 +1,132 @@
+html
+{
+    height: 100%;
+}
+
+
+.meditation
+{
+    background-image:linear-gradient(#FE848D, #F9B89F);	
+    text-align: center;
+    font-size: 40px;
+    color: #E3E9CF;
+    padding:5em 5em;
+    position: static;
+    border: none;
+    border-radius:50%;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px;
+    display: block;
+
+}
+
+#meditationButton
+{
+display:block;
+}
+
+#box1 
+    {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: linear-gradient(#F9B89F,#DD8298);
+    position: relative;
+    animation-name: boxRotate;
+    animation-duration: 10s;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+    display: none;
+  }
+
+@keyframes boxRotate 
+{
+    0%   {background-color:#F75868; left:810px; top:230px;}
+    25%  {background-color:#FDDD56; left:970px; top:230px;}
+    50%  {background-color:#03B3E8; left:970px; top:450px;}
+    75%  {background-color:#36DD4A; left:810px; top:450px;}
+    100% {background-color:#F75868; left:810px; top:230px;}
+}
+
+
+#continue
+{
+    text-align: center;
+    font-size: 40px;
+    color: #E3E9CF;
+    padding:8em 8em;
+    display:none;
+
+}
+
+#yes
+{
+    background-image:linear-gradient(#FE848D, #F9B89F);	
+    text-align: center;
+    border-radius:50%;
+    outline-color: transparent;
+    outline-style: solid;
+    padding: 3em 3em;
+    box-shadow: 0 0 0 2px;
+    margin-left: -20px;
+}
+
+#no
+{
+    background-image:linear-gradient(#FE848D, #F9B89F);	
+    text-align: center;
+    border-radius:50%;
+    outline-color: transparent;
+    outline-style: solid;
+    padding: 3em 3em;
+    box-shadow: 0 0 0 2px;
+    margin-left: 320px;
+}
+
+
+
+.center 
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+body
+{   
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(#F9B89F,#DD8298);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*#countdown
+{
+    font-size: 500px;
+    color: #E3E9CF;
+    display: block;
+}*/
+
+#footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    font-family: 'Lobster', serif;
+    color:black;
+}
+
+a.Git:link{color: #E3E9CF; text-decoration: none;}
+a.Git:visited{color: #E3E9CF; text-decoration: none;}
+a.Git:hover{color: #0E86D4; text-decoration: underline;}
+a.Git:active{color: #055C9D; text-decoration: underline;}
+
+

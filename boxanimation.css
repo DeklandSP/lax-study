@@ -1,0 +1,16 @@
+.box1 
+{
+    width: 200px;
+    height: 200px;
+    background-color: #0E86D4;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left:-100px;
+    transition: all ease 59s;
+}
+
+.box1:hover
+{
+    transform: rotate(360deg) scale(1.3);
+}
