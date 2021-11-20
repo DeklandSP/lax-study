@@ -36,3 +36,7 @@ Changed the names of the classes and id so that they could be called upon proper
 V0.06:
 Edited The JS laxStudyscript to allow full functionaly for the no and yes button. the yes button will loop back to the box medition before asking the user if they would like to meditate again. The No will return the user back to the beging of the main page (this will be changed to display a insporational message and display the ammount of time the user has been meditaing for this will be done at a later date).
 - Lewis Traynor
+
+V0.07:
+Added extra commentary to the HTML and JS files so that everyone could better understand the function and actions of the code. I also added in a fade in animation and a welcome message to the main page to improve user experience and explain the purpose of the webpage to the user. I amended the HTML and CSS files to accomodate for the welcome message and fade in animation. Commentary still needs to be added to the CSS file to improve understanding of each of the individual elements.
+- Christopher Szafranek
