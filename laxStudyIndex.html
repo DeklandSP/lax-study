@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>LaxStudy</title>
     <!--For importing css style sheet-->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css\style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <style>
         button {
@@ -16,22 +16,34 @@
     </style>
 
 </head>
+<!--Text and button to fade in on load-->
 
-<body>
-    <script src="js/laxStudyscripts.js"></script>
+<body onload="document.getElementById(welcome).style.opacity =(0)">
+    <!--The javascript file for the website-->
+    <script src="js\laxStudyscripts.js"></script>
     <!--Centring the button-->
+    <!--Welcome message explaining what the website does-->
+    <div id="welcome">
+        <h1>Welcome to laxStudy!
+            <br> A box breathing site for those who need a break from study sessions or simply
+            to provide peace of mind.
+        </h1>
+    </div>
     <div class="center" , id="meditationButton">
         <!--The button which will begin the website-->
         <button class="meditation" , onclick="hideButton()">Begin Meditation</button>
     </div>
     </div>
+    <!--Box meditation which is the main part of the website-->
     <div id="box1"></div>
+    <!--Menu which will ask the user if the wish to do a continue on with another cycle of meditation-->
     <div id="continue">
         <P>Would you like to continue your meditation?</P>
         <button id="yes" , onclick="continueMeditation()">Yes!</button>
         <button id="no" , onclick="stopMeditation()">No!</button>
     </div>
 
+    <!--Showing information on the github of the website creators-->
     <footer id="footer">
         <p>
             By
