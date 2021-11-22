@@ -40,3 +40,7 @@ Edited The JS laxStudyscript to allow full functionaly for the no and yes button
 V0.07:
 Added extra commentary to the HTML and JS files so that everyone could better understand the function and actions of the code. I also added in a fade in animation and a welcome message to the main page to improve user experience and explain the purpose of the webpage to the user. I amended the HTML and CSS files to accomodate for the welcome message and fade in animation. Commentary still needs to be added to the CSS file to improve understanding of each of the individual elements.
 - Christopher Szafranek
+
+V0.08:
+Added HTML folder for additional webpages which will be used for additional features. I also created the coming soon page to show which features will be added in the future, however it will need to be stylized. 
+-Christopher Szafranek
