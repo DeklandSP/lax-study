@@ -44,3 +44,7 @@ Added extra commentary to the HTML and JS files so that everyone could better un
 V0.08:
 Added HTML folder for additional webpages which will be used for additional features. I also created the coming soon page to show which features will be added in the future, however it will need to be stylized. 
 - Christopher Szafranek
+
+V0.09:
+Added the HTML file called About us. That page just holds information about what we do and what the website will contain. I also added a prototype dropdown menu that will allow users to access different webpages. This dropmenu will need to be added to all page I will put the css used for it in its own seperate file and we can just link it to other pages.
+- Declan S P McCormack
