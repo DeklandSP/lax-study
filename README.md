@@ -43,4 +43,4 @@ Added extra commentary to the HTML and JS files so that everyone could better un
 
 V0.08:
 Added HTML folder for additional webpages which will be used for additional features. I also created the coming soon page to show which features will be added in the future, however it will need to be stylized. 
--Christopher Szafranek
+- Christopher Szafranek
