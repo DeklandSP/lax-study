@@ -16,6 +16,23 @@ animation-fill-mode: forwards;
 color: #E3E9CF;
 }
 
+#thankYou
+{
+    text-align: center;
+    font-size: 40px;
+    display:none;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    color: #E3E9CF;
+
+}
+
+
+
+
+
 .meditation
 {
     background-image:linear-gradient(#FE848D, #F9B89F);	
