@@ -1,3 +1,4 @@
+/*Sets the height of the html element.*/
 html
 {
     height: 100%;
@@ -29,10 +30,6 @@ color: #E3E9CF;
 
 }
 
-
-
-
-
 .meditation
 {
     background-image:linear-gradient(#FE848D, #F9B89F);	
@@ -54,11 +51,11 @@ color: #E3E9CF;
 
 }
 
+/*generates line breaks before and after the meditation button*/
 #meditationButton
 {
 display:block;
 }
-
 
 #box1 
     {
@@ -104,7 +101,11 @@ display:block;
 
 }
 
-
+/*Sets the style of the text within the Continue ID to:
+- appear within the centre of the webpage.
+- have a white-ish colour for the text
+- generates space around the text relative to the font size
+- and a display none tag to appear when needed.*/
 #continue
 {
     text-align: center;
@@ -115,6 +116,7 @@ display:block;
 
 }
 
+/*ID for the yes button. Sets the colour, size, positioning, curvature, and style of the yes button*/
 #yes
 {
     background-image:linear-gradient(#FE848D, #F9B89F);	
@@ -127,6 +129,7 @@ display:block;
     margin-left: -20px;
 }
 
+/*ID for the no button. Sets the colour, size, positioning, curvature, and style of the no button*/
 #no
 {
     background-image:linear-gradient(#FE848D, #F9B89F);	
@@ -139,8 +142,8 @@ display:block;
     margin-left: 320px;
 }
 
-
-
+/*Makes anything within the centre class appear at the centre of the webpage. 
+also sets the postion of elements contained within the centre class.*/
 .center 
 {
     margin: 0;
@@ -151,14 +154,14 @@ display:block;
     transform: translate(-50%, -50%);
   }
 
-
+/*Sets the body height and width to scale and fit the entire webpage and sets the colour of the webpages body
+also makes sure that the gradient doesn't repeat itself down the webpage.*/
 body
 {   
     height: 100%;
     width: 100%;
     background-image:linear-gradient(#F9B89F,#DD8298);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /*#countdown
@@ -168,6 +171,8 @@ body
     display: block;
 }*/
 
+/*Makes sure that the footer stays at the bottom of the webpage and contains the font colour, positioning, 
+and font-family for the text written within that footer*/
 #footer
 {
     position: absolute;
@@ -179,6 +184,9 @@ body
     color:black;
 }
 
+/*stylises the clickable links to our github webpages
+So whenever someone hovers over that link it will turn a blue and when they click it
+it will go a darker blue to signify that.*/
 a.Git:link{color: #E3E9CF; text-decoration: none;}
 a.Git:visited{color: #E3E9CF; text-decoration: none;}
 a.Git:hover{color: #0E86D4; text-decoration: underline;}

@@ -1,9 +1,11 @@
+/*Sets the positioning of where the dropdownBox will be located in the webpage.*/
 .dropdown
 {
     position: relative;
     display: inline-block;
 }
 
+/* This css is responisble for the size and colour of the dropdownbox*/
 .dropMenu 
 {
     background-color: #FE848D;
@@ -14,6 +16,7 @@
     cursor: pointer;
 }
 
+/*This css styles the list of pages that appear after hovering on the dropdown box*/
 .content {
     display: none;
     position: absolute;
@@ -23,6 +26,7 @@
     z-index: 1;
 }
 
+/*Sets the font colour and the height of the boxes that contain the links to the otherwebpages.*/
 .content a {
     color: black;
     padding: 12px 16px;
@@ -30,8 +34,10 @@
     display: block;
 }
 
+/*once a user hovers over an page this slightly darkens the one they have hovered over as to show which one they will be selecting.*/
 .content a:hover {background-color: #f1f1f1}
 
+/*This positions the dropdownMenu to appear below the button while hovering over it*/
 .dropdown:hover .content 
 {
     display: block;
@@ -40,4 +46,10 @@
 .dropdown:hover .dropbtn 
 {
     background-color: #FE848D;
+}
+
+/*Sets the font for the drop downbutton but not the content within it*/
+#drop 
+{
+    font-family: 'Lobster', serif;
 }
