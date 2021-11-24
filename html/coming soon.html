@@ -3,19 +3,30 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Coming Soon</title>
     <!--For importing css style sheet-->
     <link rel="stylesheet" href="..\css\style.css" />
+    <link rel="stylesheet" href="..\css\dropdownBox.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <style>
-        button {
-            font-family: 'Lobster', serif;
-        }
-    </style>
+
+        <!--This is the dropdown menu.-->
+    <header>
+        <div class="dropdown">
+            <button id="drop" class="dropMenu">Dropdown</button>
+            <div class="content">
+                <a href="../laxStudyIndex.html">Meditation</a>
+                <a href="./about-us.html">About us!</a>
+                <a href="https://github.com/DeklandSP/lax-study/wiki">Our Wiki!</a>
+                <a href="https://github.com/DeklandSP/lax-study">Visit our Repository!</a>
+            </div>
+        </div>
+    </header>
+</head>
 
 <body>
+
     <H1>Coming soon</H1>
     <p>Additional features will be added here in the future this includes</p>
     <ul>
@@ -27,6 +38,7 @@
         <li>To do list</li>
 
     </ul>
+    
     <footer id="footer">
         <p>
             By
@@ -37,8 +49,7 @@
             <a class="Git" href="https://github.com/LewisTraynor">Lewis Traynor</a>
         </p>
     </footer>
+
 </body>
 
 </html>
-
-</head>
