@@ -49,6 +49,10 @@ V0.09:
 Added the HTML file called About us. That page just holds information about what we do and what the website will contain. I also added a prototype dropdown menu that will allow users to access different webpages. This dropmenu will need to be added to all page I will put the css used for it in its own seperate file and we can just link it to other pages.
 - Declan S P McCormack
 
-V0.1:
+V0.10:
 Updated all of the HMTL files to contain a dropdownMenu and to have links to the other webpages contained within the site. I also added two new links one that goes to our wiki and the other that goes to our repository although I've made it so that the repository one is only visible on the comming soon webpage. I have also spent my time commenting through the dropdownBox.css file and I've commented on majority of the code for the style.css file.
 - Declan S P McCormack
+
+V0.11:
+Finalised the HTML to add an exit message and the JS to allow the buttons to display exit message to users and also included a timer to allow users to view how long they have been using the app. 
+- Lewis Traynor
